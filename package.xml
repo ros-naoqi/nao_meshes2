@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>nao_meshes</name>
+  <version>2.0.0</version>
+  <description>ROS2 Meshes for the NAO robot</description>
+  <author email="mbusy@softbankrobotics.com">Maxime Busy</author>
+
+  <maintainer email="mbusy@softbankrobotics.com">Maxime Busy</maintainer>
+  <maintainer email="surya.ambrose@gmail.com">Surya Ambrose</maintainer>
+  <maintainer email="natalia.lyubova@gmail.com">Natalia Lyubova</maintainer>
+
+  <license>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License</license>
+
+  <url>http://github.com/ros-naoqi/nao_meshes2/</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>java</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
