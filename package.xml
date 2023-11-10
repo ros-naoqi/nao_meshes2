@@ -5,6 +5,7 @@
   <description>ROS2 Meshes for the NAO robot</description>
   <author email="mbusy@softbankrobotics.com">Maxime Busy</author>
 
+  <maintainer email="victor.paleologue@palaio.eu">Victor Paleologue</maintainer>
   <maintainer email="mbusy@softbankrobotics.com">Maxime Busy</maintainer>
   <maintainer email="surya.ambrose@gmail.com">Surya Ambrose</maintainer>
   <maintainer email="natalia.lyubova@gmail.com">Natalia Lyubova</maintainer>
