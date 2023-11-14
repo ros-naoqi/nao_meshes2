@@ -9,6 +9,10 @@ if [ -n "$DEBIAN_FRONTEND" ]; then
         INSTALL_MODE_FLAG=("--mode" "text")
     fi
 fi
+# For GitHub Actions this works better
+if [ -n "$CI" ] && [ "$CI" = 1 ]; then
+    INSTALL_MODE_FLAG=("--mode" "unattended")
+fi
 
 # Unless they specifically agree to the license.
 if [ -n "$I_AGREE_TO_NAO_MESHES_LICENSE" ] && [ "$I_AGREE_TO_NAO_MESHES_LICENSE" = 1 ]; then
