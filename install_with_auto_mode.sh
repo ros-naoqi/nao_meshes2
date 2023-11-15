@@ -13,6 +13,10 @@ fi
 if [ -n "$CI" ] && [ "$CI" = 1 ]; then
     INSTALL_MODE_FLAG=("--mode" "unattended")
 fi
+# For ROS 2 CI, we can check if we're in a Docker container.
+if [ -f /.dockerenv ]; then
+    INSTALL_MODE_FLAG=("--mode" "unattended")
+fi
 
 # Unless they specifically agree to the license.
 if [ -n "$I_AGREE_TO_NAO_MESHES_LICENSE" ] && [ "$I_AGREE_TO_NAO_MESHES_LICENSE" = 1 ]; then
