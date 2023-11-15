@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e -x
+set -e
 
 # Installer should show up to the user if it is not an automated job.
 if [ -n "$DEBIAN_FRONTEND" ]; then
