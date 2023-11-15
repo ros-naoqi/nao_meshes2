@@ -2,8 +2,8 @@
 Changelog for package nao_meshes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.1.0 (2023-11-15)
+------------------
 * Workaround running installer in CI
 * Fix build on GitHub Actions
 * Add CI
