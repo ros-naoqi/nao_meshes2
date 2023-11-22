@@ -6,7 +6,7 @@ find_package(ament_cmake REQUIRED)
 # When getting a new binay, the MD5 might change, and the folder hierarchy too
 # read comments below to adapt
 
-set(TMP_DIR ${CMAKE_CURRENT_BINARY_DIR}/tmp)
+set(TMP_DIR ${CMAKE_CURRENT_BINARY_DIR})
 set(INSTALLER_PATH ${TMP_DIR}/installer.run)
 
 if(${CMAKE_HOST_SYSTEM_PROCESSOR} MATCHES "$i.86$")
