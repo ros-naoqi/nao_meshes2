@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>nao_meshes</name>
-  <version>2.1.0</version>
+  <version>2.1.1</version>
   <description>ROS2 Meshes for the NAO robot</description>
   <author email="mbusy@softbankrobotics.com">Maxime Busy</author>
 

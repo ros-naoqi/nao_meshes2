@@ -2,8 +2,8 @@
 Changelog for package nao_meshes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.1.1 (2023-11-22)
+------------------
 * Download and install directly in bin dir
 * Update status badges
 * Contributors: Victor Paléologue
